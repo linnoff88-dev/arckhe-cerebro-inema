@@ -1,0 +1,18 @@
+# segredos
+.env
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# saídas de processamento
+outputs/
+
+# obsidian (config local do app)
+.obsidian/
+
+# OS / editor
+.DS_Store
+*~
