@@ -1,6 +1,6 @@
-﻿<div align="center">
+<div align="center">
 
-# ðŸ§  CÃ©rebro INEMA
+# ðŸ§  CÃ©rebro ARCKHÉ
 
 <div align="center">
   <img src="capa/logo.svg" alt="Arckhé AI" height="48" />
@@ -41,7 +41,7 @@ Obsidian + Claude Code Â· Local Â· Privado Â· Um comando
 ## O que Ã©
 
 A maioria dos "segundos cÃ©rebros" trata tudo como um monte sÃ³ de notas. O
-**CÃ©rebro INEMA** parte de uma distinÃ§Ã£o: existem **3 tipos de memÃ³ria com
+**CÃ©rebro ARCKHÉ** parte de uma distinÃ§Ã£o: existem **3 tipos de memÃ³ria com
 necessidades opostas**, e misturÃ¡-las incha o cÃ©rebro. EntÃ£o ele separa em trÃªs:
 
 | CÃ©rebro | Guarda | Por quÃª |
@@ -54,7 +54,7 @@ Cada um tem sua pasta, sua regra e sua skill. Os `[[wikilinks]]` cruzam entre
 os trÃªs â€” separaÃ§Ã£o dÃ¡ ordem, links dÃ£o o cÃ©rebro pensando junto.
 
 > A teoria completa (3 cÃ©rebros Ã— 4 camadas, comparaÃ§Ã£o com outros projetos)
-> estÃ¡ no repositÃ³rio de pesquisa [`2cerebrox`](https://github.com/inematds/2cerebrox).
+> estÃ¡ no repositÃ³rio de pesquisa [`2cerebrox`](https://github.com/linnoff88-dev/2cerebrox).
 
 ## Como funciona
 
@@ -72,8 +72,8 @@ um melhor amanhÃ£ â€” vocÃª troca o motor e o cÃ©rebro fica.
 ### Linux / macOS
 
 ```bash
-git clone https://github.com/inematds/cerebro-inema.git
-cd cerebro-inema
+git clone https://github.com/linnoff88-dev/cerebro-ARCKHÉ.git
+cd cerebro-ARCKHÉ
 ./setup.sh
 ```
 
@@ -122,7 +122,7 @@ regra e sua ferramenta, conversando com a mesma LLM.
 ---
 
 <div align="center">
-Um projeto <a href="https://inema.club">INEMA.CLUB</a> Â· feito com Claude Code
+Um projeto <a href="https://ARCKHÉ AI">ARCKHÉ AI</a> Â· feito com Claude Code
 </div>
 
 ---

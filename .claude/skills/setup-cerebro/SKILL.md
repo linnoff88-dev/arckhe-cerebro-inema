@@ -1,58 +1,58 @@
 ---
 name: setup-cerebro
-description: Configurador interativo do Cérebro INEMA. Pergunta ao usuário quem ele é em texto livre, depois personaliza o CLAUDE.md e os arquivos-semente do cérebro Self. Use no primeiro uso, ou quando o usuário disser "setup", "configurar cérebro", "personalizar".
+description: Configurador interativo do CÃ©rebro ARCKHÉ. Pergunta ao usuÃ¡rio quem ele Ã© em texto livre, depois personaliza o CLAUDE.md e os arquivos-semente do cÃ©rebro Self. Use no primeiro uso, ou quando o usuÃ¡rio disser "setup", "configurar cÃ©rebro", "personalizar".
 ---
 
-# Setup Cérebro — Onboarding (texto livre, em PT-BR)
+# Setup CÃ©rebro â€” Onboarding (texto livre, em PT-BR)
 
-Rode de DENTRO da pasta do vault. Personaliza o cérebro a partir de uma conversa.
+Rode de DENTRO da pasta do vault. Personaliza o cÃ©rebro a partir de uma conversa.
 
-## Passo 1 — Uma pergunta, texto livre
+## Passo 1 â€” Uma pergunta, texto livre
 Mostre exatamente esta mensagem e **espere** a resposta (nunca use menu):
 
 ---
 
-**Me conta sobre você em algumas frases pra eu montar seu cérebro.**
+**Me conta sobre vocÃª em algumas frases pra eu montar seu cÃ©rebro.**
 
 Responda na ordem que quiser:
-- O que você faz?
-- O que mais escapa / o que você queria registrar melhor?
-- Só trabalho, ou vida pessoal também?
+- O que vocÃª faz?
+- O que mais escapa / o que vocÃª queria registrar melhor?
+- SÃ³ trabalho, ou vida pessoal tambÃ©m?
 - Tem arquivos pra importar? (PDFs, docs, notas)
-- Quais são seus valores / o que te guia? (pro cérebro Self)
+- Quais sÃ£o seus valores / o que te guia? (pro cÃ©rebro Self)
 
 Sem formalidade. Algumas frases bastam.
 
 ---
 
-## Passo 2 — Inferir e prever (não pergunte mais)
+## Passo 2 â€” Inferir e prever (nÃ£o pergunte mais)
 Da resposta em texto livre, infira: papel, principal dor, escopo (trabalho /
-trabalho+pessoal), se tem arquivos, e 1-2 valores. Faça inferências espertas.
+trabalho+pessoal), se tem arquivos, e 1-2 valores. FaÃ§a inferÃªncias espertas.
 
-Mostre um preview da personalização (estrutura dos 3 cérebros já é fixa — o que
-muda é o conteúdo do `me.md`, `values.md` e o "Quem sou eu" do `CLAUDE.md`).
-Peça confirmação em texto livre: "Pode construir assim? Me diz o que mudar."
+Mostre um preview da personalizaÃ§Ã£o (estrutura dos 3 cÃ©rebros jÃ¡ Ã© fixa â€” o que
+muda Ã© o conteÃºdo do `me.md`, `values.md` e o "Quem sou eu" do `CLAUDE.md`).
+PeÃ§a confirmaÃ§Ã£o em texto livre: "Pode construir assim? Me diz o que mudar."
 
-## Passo 3 — Construir após confirmação
+## Passo 3 â€” Construir apÃ³s confirmaÃ§Ã£o
 Quando confirmar ("pode", "manda", "isso"):
 
 1. **Preencher `2-self/me.md`** com perfil, como gosta de trabalhar, o que delegaria.
-2. **Preencher `2-self/values.md`** com os princípios que ele citou.
-3. **Atualizar `CLAUDE.md`** → seção "Quem sou eu" (2-3 frases, 1ª pessoa, específico).
-4. Se mencionou regras de escrita/marca → crie `2-self/voz.md` (tom de voz) e,
-   se for o caso, `2-self/design.md` — o `CLAUDE.md` já aponta pra eles.
-5. Se tem arquivos pra importar → diga pra jogar em `0-inbox/` ou
+2. **Preencher `2-self/values.md`** com os princÃ­pios que ele citou.
+3. **Atualizar `CLAUDE.md`** â†’ seÃ§Ã£o "Quem sou eu" (2-3 frases, 1Âª pessoa, especÃ­fico).
+4. Se mencionou regras de escrita/marca â†’ crie `2-self/voz.md` (tom de voz) e,
+   se for o caso, `2-self/design.md` â€” o `CLAUDE.md` jÃ¡ aponta pra eles.
+5. Se tem arquivos pra importar â†’ diga pra jogar em `0-inbox/` ou
    `3-conhecimento/sources/` e rodar `/triagem` ou `/nota`.
 
-## Passo 4 — Injeção de contexto global (opcional)
-Pergunte em texto livre se ele quer que este cérebro carregue em toda sessão.
+## Passo 4 â€” InjeÃ§Ã£o de contexto global (opcional)
+Pergunte em texto livre se ele quer que este cÃ©rebro carregue em toda sessÃ£o.
 Se sim, acrescente a `~/.claude/CLAUDE.md`:
 ```
-## Meu cérebro pessoal
-No início de cada sessão, leia [caminho absoluto do vault]/CLAUDE.md para o
-contexto de quem eu sou, meu trabalho e minhas convenções.
+## Meu cÃ©rebro pessoal
+No inÃ­cio de cada sessÃ£o, leia [caminho absoluto do vault]/CLAUDE.md para o
+contexto de quem eu sou, meu trabalho e minhas convenÃ§Ãµes.
 ```
 
-## Passo 5 — Fechar
-Liste as skills disponíveis (`/triagem`, `/daily`, `/tldr`, `/nota`, `/socratica`)
+## Passo 5 â€” Fechar
+Liste as skills disponÃ­veis (`/triagem`, `/daily`, `/tldr`, `/nota`, `/socratica`)
 e sugira o primeiro passo: "Joga umas coisas em `0-inbox/` e roda `/triagem`."
