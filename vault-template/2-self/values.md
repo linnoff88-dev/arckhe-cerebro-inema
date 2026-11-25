@@ -1,7 +1,7 @@
 # Valores
 
 > Cérebro **Self**. Princípios que guiam minhas decisões. Raramente muda.
-> Quando uma decisão de projeto for difícil, o Claude deve consultar aqui.
+> Quando uma decisêo de projeto for difícil, o Claude deve consultar aqui.
 
 ## Meus princípios
 1.

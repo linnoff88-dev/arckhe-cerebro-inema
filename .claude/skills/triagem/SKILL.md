@@ -1,6 +1,6 @@
 ---
 name: triagem
-description: Lê os itens de 0-inbox/ e roteia cada um pro cérebro certo (1-projeto, 2-self ou 3-conhecimento). Use quando o usuário disser "triagem", "organiza a inbox", "classifica isso", "roteia", ou quando houver arquivos não classificados em 0-inbox/.
+description: Lê os itens de 0-inbox/ e roteia cada um pro cérebro certo (1-projeto, 2-self ou 3-conhecimento). Use quando o usuário disser "triagem", "organiza a inbox", "classifica isso", "roteia", ou quando houver arquivos nêo classificados em 0-inbox/.
 ---
 
 # Triagem — Roteador da inbox
@@ -16,17 +16,17 @@ Para cada item, aplique o teste e proponha o destino:
 
 | Pergunta | Se sim → cérebro | Destino sugerido |
 |---|---|---|
-| Vira história/arquivo daqui a 1 ano? É sobre o que rolou / uma decisão / um projeto? | **1. Projeto** | `1-projeto/daily/`, `projects/<nome>/` ou `decisions/log.md` |
-| É subjetivo, é *seu*, uma dúvida ou ideia em formação? | **2. Self** | `2-self/questions/`, `thinking/` ou `journal/` |
+| Vira história/arquivo daqui a 1 ano? É sobre o que rolou / uma decisêo / um projeto? | **1. Projeto** | `1-projeto/daily/`, `projects/<nome>/` ou `decisions/log.md` |
+| É subjetivo, é *seu*, uma dúvida ou ideia em formaçêo? | **2. Self** | `2-self/questions/`, `thinking/` ou `journal/` |
 | É um fato / referência / algo que você aprendeu? | **3. Conhecimento** | `3-conhecimento/notes/` (destile com `/nota`) |
 
-## Passo 3 — Propor, não executar às cegas
+## Passo 3 — Propor, nêo executar às cegas
 Mostre ao usuário uma tabela: **item → cérebro → destino → por quê** (1 linha cada).
 Pergunte em **texto livre** (nunca menu): "Confirma essa triagem? Me diga em texto
 o que mudar." Espere a resposta.
 
 ## Passo 4 — Mover
-Após confirmação, mova cada arquivo pro destino. Se for conhecimento cru, destile
+Após confirmaçêo, mova cada arquivo pro destino. Se for conhecimento cru, destile
 com `/nota` antes de salvar em `notes/`. Crie `[[wikilinks]]` ligando ao que já
 existe (use a skill `obsidian-markdown` do kepano se instalada).
 

@@ -18,7 +18,7 @@ python scripts/process_files_with_gemini.py <caminho>
 Para URLs, prefira a skill `defuddle` do kepano (extrai markdown limpo) se instalada.
 
 ## Passo 2 — Destilar (uma ideia por nota)
-Escreva uma nota **atômica**: um conceito por arquivo. Não copie a fonte —
+Escreva uma nota **atômica**: um conceito por arquivo. Nêo copie a fonte —
 **destile**. Estrutura:
 
 ```markdown
@@ -44,7 +44,7 @@ tags: [tema1, tema2]
 - Crie `[[wikilinks]]` para notas que já existem em `3-conhecimento/notes/`.
   Procure por temas próximos antes de salvar — uma nota sem link é arquivo morto.
 - Se houver um MOC do tema em `3-conhecimento/topics/`, adicione a nota a ele.
-  Se não houver e o tema é recorrente, crie o MOC.
+  Se nêo houver e o tema é recorrente, crie o MOC.
 - Use a skill `obsidian-markdown` do kepano (se instalada) para garantir
   wikilinks/properties válidos.
 

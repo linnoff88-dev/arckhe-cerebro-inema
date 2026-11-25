@@ -28,7 +28,7 @@ echo "    sistema: $OS"
 # --- destino --------------------------------------------------------------
 if [ -e "$DEST" ] && [ -n "$(ls -A "$DEST" 2>/dev/null || true)" ]; then
   echo ""
-  echo "⚠️   $DEST já existe e não está vazio."
+  echo "⚠️   $DEST já existe e nêo está vazio."
   printf "    Continuar e mesclar a estrutura mesmo assim? [s/N] "
   read -r RESP
   case "$RESP" in
@@ -65,7 +65,7 @@ echo "Próximos passos:"
 echo "  1. cd \"$DEST\""
 echo "  2. Abra o Claude Code nessa pasta e rode:  /setup-cerebro"
 echo "  3. (opcional) Camada de formato:  /plugin marketplace add kepano/obsidian-skills"
-echo "  4. (opcional) Ingestão de arquivos:"
+echo "  4. (opcional) Ingestêo de arquivos:"
 echo "       pip install -r requirements.txt"
 echo "       cp .env.example .env   # coloque sua GEMINI_API_KEY"
 echo ""
