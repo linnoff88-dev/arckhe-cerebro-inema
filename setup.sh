@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Cérebro INEMA — instalador (Linux / macOS)
+# Cérebro ARCKHÉ — instalador (Linux / macOS)
 # Cria um vault com a estrutura dos 3 cérebros e instala as skills.
 #
 # Uso:
@@ -12,7 +12,7 @@ set -euo pipefail
 REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 DEST="${1:-$HOME/cerebro}"
 
-echo "🧠  Cérebro INEMA — instalador"
+echo "🧠  Cérebro ARCKHÉ — instalador"
 echo "    origem:  $REPO_DIR"
 echo "    destino: $DEST"
 echo ""
